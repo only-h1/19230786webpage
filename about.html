@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Who We Are | Hot Beans Web</title>
+  <link rel="icon" type="image/png" href="o:\.UNIT 6 Web Development\Hot (3).png">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #1e1e1e;
+      color: #f5f5f5;
+    }
+
+    /* Navbar Styles */
+    nav {
+      background-color: #121212;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: flex-end;
+      gap: 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 10px rgba(0, 255, 231, 0.1);
+    }
+
+    nav a {
+      color: #00ffe7;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .section-title {
+      font-size: 3rem;
+      color: #00ffe7;
+      margin-bottom: 2rem;
+    }
+
+    .about-text {
+      font-size: 1.15rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.7;
+    }
+
+    .contact-card {
+      background: #292929;
+      padding: 2rem;
+      border-radius: 16px;
+      margin-top: 3rem;
+      box-shadow: 0 0 25px rgba(0, 255, 231, 0.2);
+    }
+
+    .contact-card h3 {
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      color: #00ffe7;
+    }
+
+    .contact-card a {
+      color: #00ffe7;
+      text-decoration: none;
+    }
+
+    .contact-card a:hover {
+      text-decoration: underline;
+    }
+
+    .trust-rating {
+      margin-top: 2.5rem;
+    }
+
+    .trust-rating img {
+      width: 130px;
+      margin-bottom: 0.5rem;
+    }
+
+    .trust-rating p {
+      font-size: 1rem;
+      color: #ccc;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-end;
+      }
+
+      .section-title {
+        font-size: 2.2rem;
+      }
+
+      .about-text {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔝 NAVIGATION BAR -->
+  <nav>
+    <a href="o:\.UNIT 6 Web Development\website development\index.html">Home</a>
+    <a href="o:\.UNIT 6 Web Development\website development\apply.html">Apply</a>
+    <a href="o:\.UNIT 6 Web Development\website development\team.html">Meet the Team</a>
+    <a href="o:\.UNIT 6 Web Development\website development\courses.html">Courses</a>
+  </nav>
+
+  <!-- 🔥 MAIN SECTION -->
+  <section class="about-us">
+    <div class="container">
+      <h2 class="section-title">Who We Are 💡</h2>
+      <p class="about-text">
+        We’re the digital hype squad for small business owners and passionate creators. From artists to home developers, we help them find their style online.
+      </p>
+      <p class="about-text">
+        Our squad merges tech and creativity, empowering young developers to build and personalise their own sites.
+      </p>
+      <p class="about-text">
+        We started small, garage level style and now we're one of the go-to teams for user effects and pro-level support.
+      </p>
+
+      <div class="contact-card">
+        <h3>📞 Contact Us</h3>
+        <p><strong>Tel:</strong> <a href="tel:+447474139460">(+44) 7474 139460</a></p>
+        <p><strong>Email:</strong> <a href="mailto:hbwebs.design@gmail.com">hbwebs.design@gmail.com</a></p>
+      </div>
+
+      <div class="trust-rating">
+        <img src="o:\.UNIT 6 Web Development\trustpilot-light (1).png" alt="Trustpilot Rating" />
+        <p>Rated 4.5/5 Stars on Trustpilot 🌟</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

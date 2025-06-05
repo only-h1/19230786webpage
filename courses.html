@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Courses</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('courses-background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px 10px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: black;
+      padding: 25px 50px;
+      border-radius: 30px;
+      background: rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(12px);
+      border: 2px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      display: inline-block;
+    }
+
+    .logos {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin: 30px 0;
+      flex-wrap: wrap;
+    }
+
+    .logos a {
+      display: inline-block;
+      transition: transform 0.3s;
+      background: white;
+      border-radius: 12px;
+      padding: 10px;
+      border: 2px solid #fff;
+    }
+
+    .logos a:hover {
+      transform: scale(1.2);
+    }
+
+    .logos img {
+      width: 150px;
+      height: auto;
+      display: block;
+    }
+
+    .description {
+      max-width: 850px;
+      margin: 0 auto 30px;
+      padding: 25px;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 25px;
+      font-size: 1.1rem;
+      text-align: center;
+      line-height: 1.7;
+      font-weight: bold;
+      border: 2px solid rgba(255, 255, 255, 0.4);
+      backdrop-filter: blur(8px);
+    }
+
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 15px 10px;
+      margin-top: auto;
+    }
+
+    footer a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: underline;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+
+    footer a:hover {
+      color: cyan;
+    }
+
+    @media (max-width: 768px) {
+      .logos {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .logos a {
+        margin-bottom: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Courses <span style="color: black;">YOU</span> need</h1>
+  </header>
+
+  <div class="logos">
+    <a href="https://www.w3schools.com" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/2175px-W3Schools_logo.svg.png" alt="W3 Schools" />
+    </a>
+    <a href="https://developer.mozilla.org" target="_blank">
+      <img src="https://www.zdnet.com/a/img/resize/55c25cbe57e6c619a67ea3975a7a919d987d66e4/2022/03/01/33b5e401-651b-4108-8fcf-6b6fa5670039/screen-shot-2022-03-01-at-11-24-49-am.png?auto=webp&fit=crop&height=1200&width=1200" alt="MDN Docs" />
+    </a>
+    <a href="https://www.geeksforgeeks.org" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/GeeksforGeeks.svg/1200px-GeeksforGeeks.svg.png" alt="Geeks for Geeks" />
+    </a>
+    <a href="https://www.tutorialspoint.com/index.htm" target="_blank">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg4jWSGPYxOCkS3QH4FSFupn9Ila5_IBaP7w&s" alt="TutorialsPoint" />
+    </a>
+  </div>
+
+  <div class="description">
+    Using these websites you will be able to learn all sorts of coding using different languages depending on your level of skill. You will be able to use different websites and learn at either a fast/slow pace, or learning from a beginner or advanced level. Whether for personal use or for work, these courses will surely help you develop your skills to become a better programmer.
+  </div>
+
+  <footer>
+    <a href="o:\.UNIT 6 Web Development\website development\index.html">Home</a>
+    <a href="o:\.UNIT 6 Web Development\website development\courses.html">Apply</a>
+    <a href="o:\.UNIT 6 Web Development\website development\team.html">Meet the Team</a>
+    <a href="o:\.UNIT 6 Web Development\website development\about.html">About Us</a>
+  </footer>
+</body>
+</html>
